@@ -5,6 +5,8 @@ import { Button } from "../ui/button";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import Link from "next/link";
+import { DialogTrigger } from "../ui/dialog";
+import ResumeDialog from "./ResumeDialog";
 
 const socials = [
     {
@@ -47,7 +49,7 @@ const ProfileSection = () => {
                 </p>
             </div>
             <div className="flex gap-2">
-                <Button className="w-full font-bold">RESUME</Button>
+                <ResumeDialog />
                 <Button className="w-full font-bold">CONTACT ME</Button>
             </div>
             <div className="border-t" />
