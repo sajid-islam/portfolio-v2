@@ -3,7 +3,7 @@ import React from 'react'
 
 const MainPage = () => {
   return (
-    <div className='mt-8'>
+    <div className='my-8'>
       <Sidebar/>
     </div>
   )
