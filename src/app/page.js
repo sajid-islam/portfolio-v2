@@ -1,8 +1,11 @@
+import Sidebar from '@/components/sidebarComponents/Sidebar'
 import React from 'react'
 
 const MainPage = () => {
   return (
-    <div>MainPage</div>
+    <div className='mt-8'>
+      <Sidebar/>
+    </div>
   )
 }
 
