@@ -1,8 +1,13 @@
+import AboutMe from "./AboutMe";
+import FeaturedProjects from "./FeaturedProjects";
 
 const PortfolioShowcase = () => {
-  return (
-    <div>PortfolioShowcase</div>
-  )
-}
+    return (
+        <section>
+            <AboutMe />
+            <FeaturedProjects />
+        </section>
+    );
+};
 
-export default PortfolioShowcase
+export default PortfolioShowcase;

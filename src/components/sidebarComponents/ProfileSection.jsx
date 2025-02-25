@@ -28,8 +28,8 @@ const socials = [
 
 const ProfileSection = () => {
     return (
-        <section className="border rounded-lg p-6 w-[315px] space-y-5">
-            <div className="rounded-full">
+        <section className="border rounded-lg p-6 space-y-5">
+            <div className="rounded-full flex justify-center">
                 <Image
                     className="rounded-full"
                     src={avatar}
