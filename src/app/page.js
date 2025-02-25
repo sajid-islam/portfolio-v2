@@ -4,7 +4,7 @@ import React from "react";
 
 const MainPage = () => {
     return (
-        <div className="my-8 grid grid-cols-1 md:grid-cols-3 gap-10">
+        <div className="my-8 grid grid-cols-1 md:grid-cols-3 gap-6">
             <Sidebar />
             <section className="md:col-span-2">
                 <PortfolioShowcase />

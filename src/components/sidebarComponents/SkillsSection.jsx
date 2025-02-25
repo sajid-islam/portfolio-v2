@@ -51,11 +51,11 @@ const skills = [
 ];
 const SkillsSection = () => {
     return (
-        <section className="border p-6 rounded-lg mt-5">
+        <section className="w-[315px] border p-6 rounded-lg mt-5">
             <h2 className="text-2xl font-bold">Skills</h2>
             <div className="flex flex-wrap gap-2 mt-6">
                 {skills.map((skill, idx) => (
-                    <p key={idx} className="text-[12px] font-semibold flex items-center gap-1 bg-[#f5f5f5] rounded-full px-[10px] py-1">
+                    <p key={idx} className="text-[12px] font-semibold flex items-center gap-1 bg-[#f5f5f5] dark:bg-[#262626] rounded-full px-[10px] py-1">
                       {skill.icon}
                       <span>{skill.name}</span>
                     </p>
