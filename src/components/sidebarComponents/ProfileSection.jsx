@@ -39,10 +39,10 @@ const ProfileSection = () => {
             </div>
             <div>
                 <h2 className="text-2xl font-bold">Md Sajidul Islam</h2>
-                <p className="text-[#737373] text-[16px]">Web Developer</p>
+                <p className="text-[#737373] dark:text-[#a3a3a3] text-[16px]">Web Developer</p>
             </div>
             <div>
-                <p className="text-[#737373] text-sm">
+                <p className="text-[#737373] dark:text-[#a3a3a3] text-sm">
                     I’m a passionate web developer focused on building scalable
                     and user-friendly applications.
                 </p>

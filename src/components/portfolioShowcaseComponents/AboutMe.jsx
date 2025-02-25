@@ -9,6 +9,15 @@ const AboutMe = () => {
                     <ThemeSwitcher />
                 </div>
             </div>
+            <div className="text-[15px] text-[#737373] dark:text-[#a3a3a3] mt-5 space-y-3">
+                <p>
+                    Frontend Developer passionate about building fast,
+                    user-friendly websites that make an impact.
+                </p>
+                <p>
+                    Let’s create a site that looks great and works even better.
+                </p>
+            </div>
         </section>
     );
 };
