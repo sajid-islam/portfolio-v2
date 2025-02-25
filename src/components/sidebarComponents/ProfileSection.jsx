@@ -20,7 +20,7 @@ const socials = [
     },
     {
         name: "X (Twitter)",
-        link: "https://x.com/sajid_islam",
+        link: "https://x.com/sajid_islam1",
         icon: <FaXTwitter className="size-4" />,
     },
 ];

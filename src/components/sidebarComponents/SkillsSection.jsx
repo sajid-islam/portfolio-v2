@@ -51,7 +51,7 @@ const skills = [
 ];
 const SkillsSection = () => {
     return (
-        <section className="w-[315px] border p-6 rounded-lg mt-5">
+        <section className="border p-6 rounded-lg mt-5">
             <h2 className="text-2xl font-bold">Skills</h2>
             <div className="flex flex-wrap gap-2 mt-6">
                 {skills.map((skill, idx) => (
