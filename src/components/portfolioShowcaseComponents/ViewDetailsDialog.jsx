@@ -67,8 +67,11 @@ const ViewDetailsDialog = ({
                             <ul className="mt-2 list-disc">
                                 {features.map((f, i) => (
                                     <li key={i} className="flex gap-1">
-                                        •<strong>{f.split(":")[0]}:</strong>
-                                        <p>{f.split(":")[1]}</p>
+                                        •
+                                        <p>
+                                            <strong>{f.split(":")[0]}:</strong>
+                                            {f.split(":")[1]}{" "}
+                                        </p>
                                     </li>
                                 ))}
                             </ul>
@@ -76,13 +79,11 @@ const ViewDetailsDialog = ({
                     </div>
                     <DialogFooter className="">
                         {repoLinks.map((repoLink, i) => (
-                            <div
-                                key={i}
-                                className="flex flex-col md:flex-row gap-2"
-                            >
+                            <div key={i} className="flex gap-2">
                                 <Link
                                     href={repoLink.clientSide}
                                     target="_blank"
+                                    className="w-full md:w-auto"
                                 >
                                     <Button className="w-full md:w-auto">
                                         <FaGithub />
@@ -95,6 +96,7 @@ const ViewDetailsDialog = ({
                                     <Link
                                         href={repoLink.serverSide}
                                         target="_blank"
+                                        className="w-full md:w-auto"
                                     >
                                         <Button className="w-full md:w-auto">
                                             {" "}

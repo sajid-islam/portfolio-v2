@@ -6,6 +6,7 @@ import { FaXTwitter } from "react-icons/fa6";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import Link from "next/link";
 import ResumeDialog from "./ResumeDialog";
+import ThemeSwitcher from "./../ui/themeSwitcher/ThemeSwitcher";
 
 const socials = [
     {
@@ -28,18 +29,30 @@ const socials = [
 const ProfileSection = () => {
     return (
         <section className="border dark:border-[#262626] rounded-lg p-6 space-y-5">
-            <div className="rounded-full flex justify-center">
-                <Image
-                    className="rounded-full"
-                    src={avatar}
-                    alt="Avatar"
-                    placeholder="blur"
-                    width={250}
-                />
-            </div>
-            <div>
-                <h2 className="text-2xl font-bold">Md Sajidul Islam</h2>
-                <p className="text-[#737373] dark:text-[#a3a3a3] text-[16px]">Web Developer</p>
+            <div className="flex justify-between ">
+                <div className="flex md:flex-col items-center gap-4">
+                    <div className="flex justify-center md:w-full">
+                        <Image
+                            width={150}
+                            height={150}
+                            quality={100}
+                            src={avatar}
+                            alt="Profile Picture"
+                            className="rounded-full size-12 md:w-full h-auto object-cover border-2"
+                        />
+                    </div>
+                    <div className="mt-0 md:mt-6">
+                        <h2 className="text-xl md:text-2xl font-bold">
+                            Md Sajidul Islam
+                        </h2>
+                        <p className="text-[#737373] dark:text-[#a3a3a3] text-sm md:text-base">
+                            Web Developer
+                        </p>
+                    </div>
+                </div>
+                <div className="md:hidden">
+                    <ThemeSwitcher />
+                </div>
             </div>
             <div>
                 <p className="text-[#737373] dark:text-[#a3a3a3] text-sm">
@@ -47,7 +60,7 @@ const ProfileSection = () => {
                     and user-friendly applications.
                 </p>
             </div>
-            <div className="flex gap-2">
+            <div className="flex md:flex-col xl:flex-row gap-2">
                 <ResumeDialog />
                 <Button className="w-full font-bold">CONTACT ME</Button>
             </div>

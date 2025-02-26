@@ -5,7 +5,7 @@ const AboutMe = () => {
         <section className="border rounded-lg p-6">
             <div className="flex justify-between items-center">
                 <h2 className="text-2xl font-bold">About Me</h2>
-                <div>
+                <div className="hidden md:block">
                     <ThemeSwitcher />
                 </div>
             </div>
