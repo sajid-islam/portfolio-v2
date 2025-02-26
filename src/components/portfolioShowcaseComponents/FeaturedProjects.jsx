@@ -163,7 +163,7 @@ const FeaturedProjects = () => {
                         <Card key={i}>
                             <CardContent className="pt-6 h-full">
                                 <div className="flex flex-col h-full">
-                                    <Link href={project.link ? project.link : "#"} target="_blank">
+                                    <Link href={project.link ? project.link : "#"} target={project.link && "_blank"}>
                                         <h4 className="font-semibold text-primary hover:underline">
                                             {project.name}
                                         </h4>

@@ -30,8 +30,8 @@ const ProfileSection = () => {
     return (
         <section className="border dark:border-[#262626] rounded-lg p-6 space-y-5">
             <div className="flex justify-between ">
-                <div className="flex md:flex-col items-center gap-4">
-                    <div className="flex justify-center md:w-full">
+                <div className="flex md:block items-center gap-4 md:w-full">
+                    <div className="flex justify-center ">
                         <Image
                             width={150}
                             height={150}
