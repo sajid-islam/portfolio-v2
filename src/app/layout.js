@@ -18,7 +18,7 @@ export const metadata = {
         "Welcome to my portfolio! I'm Md Sajiul Islam, a passionate developer specializing in building modern web applications.",
     keywords:
         "Md Sajiul Islam, portfolio, developer, web development, next.js, react, frontend, backend",
-    authors: [{ name: "Md Sajiul Islam", url: "https://yourwebsite.com" }],
+    authors: [{ name: "Md Sajiul Islam", url: "https://sajid-islam.vercel.app" }],
     creator: "Md Sajiul Islam",
     publisher: "Md Sajiul Islam",
     icons: {
@@ -30,7 +30,7 @@ export const metadata = {
         title: "Md Sajiul Islam - Portfolio",
         description:
             "Welcome to my portfolio! I'm Md Sajiul Islam, a passionate developer specializing in building modern web applications.",
-        url: "https://yourwebsite.com",
+        url: "https://sajid-islam.vercel.app",
         siteName: "Md Sajiul Islam",
         images: [
             {
