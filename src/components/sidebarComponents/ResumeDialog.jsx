@@ -37,7 +37,12 @@ const ResumeDialog = () => {
                     <div className="grid gap-4 py-4"></div>
                     <DialogFooter>
                         <Button>
-                            <a href={"/resumes/Resume_Of_Md_Sajidul_Islam_Web_Developer.png"} download>
+                            <a
+                                href={
+                                    "/resumes/Resume_Of_Md_Sajidul_Islam_Web_Developer.pdf"
+                                }
+                                download
+                            >
                                 Download Resume
                             </a>
                         </Button>
