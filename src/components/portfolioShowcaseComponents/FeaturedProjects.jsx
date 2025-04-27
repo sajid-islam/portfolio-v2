@@ -5,6 +5,29 @@ import ViewDetailsDialog from "./ViewDetailsDialog";
 
 const projects = [
     {
+        name: "Daily Tailm",
+        description:
+            "A knowledge-sharing platform designed to help busy individuals learn Islamic teachings by offering a daily hadith and other educational resources.",
+        tech: "Next.js",
+        technologies: ["NextJs", "Tailwind Css", "ShadcnUI"],
+        features: [
+            "Daily Hadith Display: Randomly presents a new hadith every day, encouraging users to increase their Islamic knowledge in small, consistent steps.",
+            "Subject-wise Hadith Collection: Allows users to browse hadiths by specific topics for deeper, focused learning.",
+            "Multiple Reading Themes: Offers 3 different themes to enhance the reading experience based on user preference.",
+            "Prayer Times: Displays prayer times dynamically based on the user's location for convenience and accuracy.",
+            "Hadith Actions: Enables users to easily copy, share, and download hadiths for personal use or to share with others.",
+        ],
+        screenshots: ["/projectsImg/daily-talim.png"],
+        link: "https://dailytalim.com/",
+        repoLinks: [
+            {
+                clientSide:
+                    "https://github.com/mehedijaman/dailytalim-frontend",
+                serverSide: "https://github.com/dailytalim/dailytalim-backend",
+            },
+        ],
+    },
+    {
         name: "Virtual Classroom",
         description:
             "A team project that engages teachers and students in a digital platform for seamless learning.",
