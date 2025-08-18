@@ -140,33 +140,6 @@ const projects = [
             },
         ],
     },
-    {
-        name: "Blogging Platform",
-        description:
-            "A technology-focused blogging platform for sharing knowledge and insights.",
-        tech: "React",
-        technologies: [
-            "React",
-            "TailwindCSS",
-            "DaisyUI",
-            "Firebase",
-            "MongoDB",
-            "ExpressJS",
-        ],
-        features: [
-            "User-Friendly Blog Creation: Easily create and publish tech-related blogs.",
-            "Interactive Commenting System: Engage with other users through comments on blog posts.",
-            "Wishlist Management: Save favorite blogs to a wishlist for quick access.",
-        ],
-        screenshots: ["/projectsImg/blogging-platform.png"],
-        link: "https://a11-devnook.web.app/",
-        repoLinks: [
-            {
-                clientSide: "https://github.com/sajid-islam/Dev-Nook-Client",
-                serverSide: "https://github.com/sajid-islam/Dev-Nook-Server",
-            },
-        ],
-    },
 ];
 
 const techColors = {

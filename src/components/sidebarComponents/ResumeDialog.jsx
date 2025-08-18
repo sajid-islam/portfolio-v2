@@ -11,6 +11,7 @@ import {
 } from "../ui/dialog";
 import ResumeImg from "../../../public/resumes/Resume_Of_Md_Sajidul_Islam_Web_Developer.png";
 import Link from "next/link";
+import ResumeViewer from "../ResumeViewer/ResumeViewer";
 
 const ResumeDialog = () => {
     return (
@@ -23,24 +24,11 @@ const ResumeDialog = () => {
                     <DialogHeader>
                         <DialogTitle>Resume</DialogTitle>
                     </DialogHeader>
-
-                    <div className="mt-5 mx-auto max-h-[70vh] overflow-auto">
-                        <Image
-                            width={900}
-                            height={1200}
-                            src={ResumeImg}
-                            alt="Resume Image"
-                            placeholder="blur"
-                            className="w-full h-auto object-contain"
-                        />
-                    </div>
-                    <div className="grid gap-4 py-4"></div>
+                    <ResumeViewer />
                     <DialogFooter>
                         <Button>
                             <a
-                                href={
-                                    "/resumes/Resume_Of_Md_Sajidul_Islam_Web_Developer.pdf"
-                                }
+                                href={"/resumes/Resume_Of_Md_Sajidul_Islam.pdf"}
                                 download
                             >
                                 Download Resume
