@@ -64,9 +64,9 @@ const ViewDetailsDialog = ({
                         </div>
                         <div>
                             <h5 className="font-semibold">Features:</h5>
-                            <ul className="mt-2 list-disc">
+                            <ul className="mt-2 list-disc space-y-3">
                                 {features.map((f, i) => (
-                                    <li key={i} className="flex gap-1">
+                                    <li key={i} className="flex gap-1 text-sm">
                                         •
                                         <p>
                                             <strong>{f.split(":")[0]}:</strong>
