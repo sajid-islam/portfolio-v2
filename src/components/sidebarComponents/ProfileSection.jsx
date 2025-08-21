@@ -7,6 +7,7 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 import Link from "next/link";
 import ResumeDialog from "./ResumeDialog";
 import ThemeSwitcher from "./../ui/themeSwitcher/ThemeSwitcher";
+import ContactDialog from "./ContactDialog";
 
 const socials = [
     {
@@ -18,11 +19,6 @@ const socials = [
         name: "LinkedIn",
         link: "https://linkedin.com/in/sajidislam1",
         icon: <FaLinkedin className="size-4" />,
-    },
-    {
-        name: "X (Twitter)",
-        link: "https://x.com/sajid_islam1",
-        icon: <FaXTwitter className="size-4" />,
     },
 ];
 
@@ -62,7 +58,7 @@ const ProfileSection = () => {
             </div>
             <div className="flex md:flex-col xl:flex-row gap-2">
                 <ResumeDialog />
-                <Button className="w-full font-bold">CONTACT ME</Button>
+                <ContactDialog />
             </div>
             <div className="border-t" />
             <div className="mt-4 flex flex-col space-y-2 border-border w-full">

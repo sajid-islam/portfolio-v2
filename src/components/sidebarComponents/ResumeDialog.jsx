@@ -1,16 +1,13 @@
-import Image from "next/image";
 import { Button } from "../ui/button";
 import {
     Dialog,
     DialogContent,
-    DialogDescription,
     DialogFooter,
     DialogHeader,
     DialogTitle,
     DialogTrigger,
 } from "../ui/dialog";
-import ResumeImg from "../../../public/resumes/Resume_Of_Md_Sajidul_Islam_Web_Developer.png";
-import Link from "next/link";
+
 import ResumeViewer from "../ResumeViewer/ResumeViewer";
 
 const ResumeDialog = () => {
