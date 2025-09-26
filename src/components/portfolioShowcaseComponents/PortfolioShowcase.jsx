@@ -1,5 +1,6 @@
 import AboutMe from "./AboutMe";
 import Education from "./Education";
+import Experience from "./Experience";
 import FeaturedProjects from "./FeaturedProjects";
 
 const PortfolioShowcase = () => {
@@ -7,6 +8,7 @@ const PortfolioShowcase = () => {
         <section>
             <AboutMe />
             <FeaturedProjects />
+            <Experience />
             <Education />
         </section>
     );

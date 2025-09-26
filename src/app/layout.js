@@ -43,15 +43,6 @@ export const metadata = {
         locale: "en_US",
         type: "website",
     },
-    twitter: {
-        card: "summary_large_image",
-        title: "Md Sajiul Islam - Portfolio",
-        description:
-            "Welcome to my portfolio! I'm Md Sajiul Islam, a passionate developer specializing in building modern web applications.",
-        site: "@yourtwitterhandle",
-        creator: "@yourtwitterhandle",
-        images: ["/me.jpg"],
-    },
     robots: "index, follow",
     category: "Technology",
 };
