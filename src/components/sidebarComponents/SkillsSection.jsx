@@ -9,14 +9,6 @@ import { SiFirebase } from "react-icons/si";
 
 const skills = [
     {
-        name: "HTML",
-        icon: <FaHtml5 size={15} />,
-    },
-    {
-        name: "CSS",
-        icon: <FaCss3 size={15} />,
-    },
-    {
         name: "React",
         icon: <FaReact size={15} />,
     },

@@ -60,7 +60,7 @@ export default function RootLayout({ children }) {
     return (
         <html lang="en" suppressHydrationWarning>
             <body className={`${inter.className} antialiased`}>
-                <main className="max-w-5xl mx-auto">
+                <main className="max-w-6xl mx-auto">
                     <ThemeProvider
                         attribute="class"
                         defaultTheme="light"
