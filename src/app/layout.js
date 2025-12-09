@@ -1,6 +1,6 @@
-import { Poppins, Inter } from "next/font/google";
-import "./globals.css";
 import { ThemeProvider } from "next-themes";
+import { Inter, Poppins } from "next/font/google";
+import "./globals.css";
 
 const poppins = Poppins({
     weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
@@ -17,7 +17,7 @@ export const metadata = {
     description:
         "Welcome to my portfolio! I'm Md Sajiul Islam, a passionate developer specializing in building modern web applications.",
     keywords:
-        "Md Sajiul Islam, portfolio, developer, web development, next.js, react, frontend, backend",
+        "Md Sajiul Islam, portfolio, developer, web development, next.js, react, frontend, backend , Sajid Islam, Sajid, Md Sajid, Md Sajidul, Web Developer, Web Developer in Bangladesh, Web Developer in khulna, React Developer, Next.js Developer, Sajiul Islam Web Developer, Md Sajiul Islam Portfolio, Sajid Islam React Developer",
     authors: [{ name: "Md Sajiul Islam", url: "https://sajid-islam.vercel.app" }],
     creator: "Md Sajiul Islam",
     publisher: "Md Sajiul Islam",
