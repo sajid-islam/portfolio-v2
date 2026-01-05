@@ -1,6 +1,6 @@
+import { cn } from "@/lib/utils";
 import Link from "next/link";
 import { Card, CardContent } from "../ui/card";
-import { cn } from "@/lib/utils";
 import ViewDetailsDialog from "./ViewDetailsDialog";
 
 const projects = [
@@ -21,9 +21,41 @@ const projects = [
         link: "https://dailytalim.com/",
         repoLinks: [
             {
-                clientSide:
-                    "https://github.com/mehedijaman/dailytalim-frontend",
+                clientSide: "https://github.com/mehedijaman/dailytalim-frontend",
                 serverSide: "https://github.com/dailytalim/dailytalim-backend",
+            },
+        ],
+    },
+    {
+        name: "Diploma360",
+        description:
+            "A role-based event management and student engagement platform built to unify diploma students, organizers, and administrators in one digital ecosystem.",
+        tech: "Next.js",
+        technologies: [
+            "Next.js",
+            "Tailwind CSS",
+            "Shadcn UI",
+            "Node.js",
+            "Express.js",
+            "MongoDB",
+            "JWT Authentication",
+            "Firebase Auth",
+        ],
+        features: [
+            "Role-Based Dashboard: Separate dashboards and permissions for students, organizers, and super admins to ensure secure and personalized access.",
+            "Event Management System: Organizers can create, update, and manage events, registrations, and participant data efficiently.",
+            "Student Event Timeline: Students can view upcoming and past events in a timeline format, including join status and event details.",
+            "QR Code Ticketing: Automatic ticket generation with QR codes for event entry and secure on-site validation.",
+            "Online Event Access: Smart join button for online events that activates only at the scheduled event date and time.",
+            "Admin User Control: Super admins can view all users, manage roles, and monitor platform activity from a centralized panel.",
+            "Reviews & Feedback: Participants can submit event reviews, helping improve future events and transparency.",
+        ],
+        screenshots: ["/projectsImg/diploma-360-home-page-screenshot.png"],
+        link: "https://diploma360.vercel.app",
+        repoLinks: [
+            {
+                clientSide: "https://github.com/sajid-islam/diploma360-client",
+                serverSide: "https://github.com/sajid-islam/diploma360-server",
             },
         ],
     },
@@ -32,14 +64,7 @@ const projects = [
         description:
             "A team project that engages teachers and students in a digital platform for seamless learning.",
         tech: "React",
-        technologies: [
-            "React",
-            "TailwindCSS",
-            "DaisyUI",
-            "Firebase",
-            "MongoDB",
-            "ExpressJS",
-        ],
+        technologies: ["React", "TailwindCSS", "DaisyUI", "Firebase", "MongoDB", "ExpressJS"],
         features: [
             "Classroom Creation: Teachers can create and manage virtual classrooms.",
             "Private Messaging: Students and teachers can communicate securely.",
@@ -51,92 +76,8 @@ const projects = [
         link: "https://class-net.vercel.app",
         repoLinks: [
             {
-                clientSide:
-                    "https://github.com/sajid-islam/Virtual-Classroom-Client",
-                serverSide:
-                    "https://github.com/sajid-islam/Virtual-Classroom-Server",
-            },
-        ],
-    },
-    {
-        name: "Employee Management",
-        description:
-            "A web-based system for managing employees, tracking performance, and streamlining HR processes.",
-        tech: "React",
-        technologies: [
-            "React",
-            "TailwindCSS",
-            "DaisyUI",
-            "Firebase",
-            "MongoDB",
-            "ExpressJS",
-        ],
-        features: [
-            "Employee Records Management: Store and manage employee details.",
-            "Performance Evaluation: Track and review employee performance.",
-            "Role-Based Access Control: Secure data access for admins and employees.",
-        ],
-        screenshots: ["/projectsImg/employee-management.png"],
-        link: "https://a12-employee-management-6ca56.web.app/",
-        repoLinks: [
-            {
-                clientSide:
-                    "https://github.com/sajid-islam/Employee-Management-Client",
-                serverSide:
-                    "https://github.com/sajid-islam/Employee-Management-Server",
-            },
-        ],
-    },
-    {
-        name: "Agency and Blogging Platform",
-        description:
-            "A modern platform for agencies to showcase services and for users to create and share blogs.",
-        tech: "Next.js",
-        technologies: [
-            "Next.js",
-            "TailwindCSS",
-            "ShadcnUI",
-            "Clerk",
-            "MongoDB",
-        ],
-        features: [
-            "Agency Portfolio: Showcase services with dynamic agency pages.",
-            "Secure Authentication: User login and access management using Clerk.",
-            "Rich Blogging System: Create, edit, and manage blog posts effortlessly.",
-        ],
-        screenshots: ["/projectsImg/agency-blogging.png"],
-        link: "https://creativeink.vercel.app/",
-        repoLinks: [
-            {
-                clientSide:
-                    "https://github.com/sajid-islam/Agency-Blogging-Platform",
-            },
-        ],
-    },
-    {
-        name: "Task Management",
-        description:
-            "A simple to-do application to ease daily life tasks, storing tasks in LocalStorage for persistence.",
-        tech: "React",
-        technologies: [
-            "React",
-            "TailwindCSS",
-            "TanStack Table",
-            "LocalStorage",
-            "MongoDB",
-            "ExpressJS",
-        ],
-        features: [
-            "Task Creation: Easily add and categorize tasks.",
-            "Progress Tracking: Mark tasks as completed or pending.",
-            "LocalStorage Support: Persist tasks without database dependency.",
-            "Priority Sorting: Organize tasks based on urgency.",
-        ],
-        screenshots: ["/projectsImg/task-management.png"],
-        link: "https://dohub.vercel.app/",
-        repoLinks: [
-            {
-                clientSide: "https://github.com/sajid-islam/Task-Management",
+                clientSide: "https://github.com/sajid-islam/Virtual-Classroom-Client",
+                serverSide: "https://github.com/sajid-islam/Virtual-Classroom-Server",
             },
         ],
     },
