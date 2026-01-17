@@ -1,13 +1,11 @@
 import Image from "next/image";
-import avatar from "../../../public/me.jpg";
-import { Button } from "../ui/button";
+import avatar from "../../../public/me.png";
 
-import { FaXTwitter } from "react-icons/fa6";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
 import Link from "next/link";
-import ResumeDialog from "./ResumeDialog";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 import ThemeSwitcher from "./../ui/themeSwitcher/ThemeSwitcher";
 import ContactDialog from "./ContactDialog";
+import ResumeDialog from "./ResumeDialog";
 
 const socials = [
     {
@@ -38,9 +36,7 @@ const ProfileSection = () => {
                         />
                     </div>
                     <div className="mt-0 md:mt-6">
-                        <h2 className="text-xl md:text-2xl font-bold">
-                            Md Sajidul Islam
-                        </h2>
+                        <h2 className="text-xl md:text-2xl font-bold">Md Sajidul Islam</h2>
                         <p className="text-[#737373] dark:text-[#a3a3a3] text-sm md:text-base">
                             Web Developer
                         </p>
@@ -52,8 +48,8 @@ const ProfileSection = () => {
             </div>
             <div>
                 <p className="text-[#737373] dark:text-[#a3a3a3] text-sm">
-                    I’m a passionate web developer focused on building scalable
-                    and user-friendly applications.
+                    I’m a passionate web developer focused on building scalable and user-friendly
+                    applications.
                 </p>
             </div>
             <div className="flex md:flex-col xl:flex-row gap-2">
