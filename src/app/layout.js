@@ -22,9 +22,9 @@ export const metadata = {
     creator: "Md Sajiul Islam",
     publisher: "Md Sajiul Islam",
     icons: {
-        icon: "/me.jpg",
-        shortcut: "/me.jpg",
-        apple: "/me.jpg",
+        icon: "/me.png",
+        shortcut: "/me.png",
+        apple: "/me.png",
     },
     openGraph: {
         title: "Md Sajiul Islam - Portfolio",
@@ -34,7 +34,7 @@ export const metadata = {
         siteName: "Md Sajiul Islam",
         images: [
             {
-                url: "/me.jpg",
+                url: "/me.png",
                 width: 1200,
                 height: 630,
                 alt: "Md Sajiul Islam's Portfolio",
