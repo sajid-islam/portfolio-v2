@@ -15,7 +15,7 @@ const socials = [
     },
     {
         name: "LinkedIn",
-        link: "https://linkedin.com/in/sajidislam1",
+        link: "https://linkedin.com/in/sajid-islam1",
         icon: <FaLinkedin className="size-4" />,
     },
 ];
