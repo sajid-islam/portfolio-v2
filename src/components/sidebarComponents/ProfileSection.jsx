@@ -6,6 +6,7 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 import ThemeSwitcher from "./../ui/themeSwitcher/ThemeSwitcher";
 import ContactDialog from "./ContactDialog";
 import ResumeDialog from "./ResumeDialog";
+import Roles from "./Roles";
 
 const socials = [
     {
@@ -37,9 +38,9 @@ const ProfileSection = () => {
                     </div>
                     <div className="mt-0 md:mt-6">
                         <h2 className="text-xl md:text-2xl font-bold">Md Sajidul Islam</h2>
-                        <p className="text-[#737373] dark:text-[#a3a3a3] text-sm md:text-base">
-                            Web Developer
-                        </p>
+                        <div className="text-[#737373] dark:text-[#a3a3a3] text-sm md:text-base flex gap-2 items-center box-content ">
+                            I'm a <Roles />
+                        </div>
                     </div>
                 </div>
                 <div className="md:hidden">
