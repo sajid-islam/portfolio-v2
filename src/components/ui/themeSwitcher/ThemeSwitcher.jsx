@@ -1,24 +1,28 @@
 "use client";
-import "./themeSwitcher.css";
 import { useTheme } from "next-themes";
+import "./themeSwitcher.css";
 
 const ThemeSwitcher = () => {
     const { theme, setTheme } = useTheme();
+
+    const playClickSound = () => {
+        const audio = new Audio("/sound/click-sound.mp3");
+        audio.play();
+    };
+
     return (
         <div className="my-body">
             <div className="darkThemeBtn">
                 <input
                     id="darkmode-toggle"
+                    onClick={playClickSound}
                     onChange={() => setTheme(theme === "light" ? "dark" : "light")}
                     type="checkbox"
+                    checked={theme === "dark"} // This is the missing piece
                     hidden
                 />
                 <label htmlFor="darkmode-toggle">
-                    <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 512 512"
-                        className="sun"
-                    >
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" className="sun">
                         <g transform="translate(0 512) scale(.1 -.1)">
                             <path d="m2513 5105c-59-25-63-46-63-320 0-266 4-288 54-315 33-17 79-17 112 0 50 27 54 49 54 315 0 275-4 295-65 321-42 17-51 17-92-1z"></path>
                             <path d="m754 4366c-28-28-34-41-34-77 0-42 3-45 188-231l187-188h47c39 0 52 5 77 31 26 25 31 38 31 77v47l-188 187c-186 185-189 188-231 188-36 0-49-6-77-34z"></path>
@@ -31,11 +35,7 @@ const ThemeSwitcher = () => {
                             <path d="m2540 663c-87-28-90-37-90-330 0-227 2-251 19-279 40-66 142-66 182 0 17 28 19 52 19 279 0 266-4 291-52 314-32 16-60 22-78 16z"></path>
                         </g>
                     </svg>
-                    <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 512 512"
-                        className="moon"
-                    >
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" className="moon">
                         <g transform="translate(0 512) scale(.1 -.1)">
                             <path d="M2090 5105c-248-51-443-118-659-226-514-256-909-652-1161-1163-94-191-139-311-185-490-127-500-110-999 51-1468 133-389 331-706 624-998 403-404 875-642 1460-736 147-24 529-24 693 0 539 78 981 283 1390 644 362 319 647 793 766 1270 46 186 56 256 42 299-22 71-80 116-151 117-73 1-104-19-181-116-307-390-733-627-1233-689-119-14-385-7-501 15-582 106-1066 469-1321 991-120 246-171 452-181 731-21 586 230 1126 695 1493 96 75 117 107 117 177 0 85-67 155-153 160-26 1-76-3-112-11z" />
                         </g>
