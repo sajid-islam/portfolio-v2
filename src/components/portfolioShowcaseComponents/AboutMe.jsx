@@ -9,13 +9,22 @@ const AboutMe = () => {
                     <ThemeSwitcher />
                 </div>
             </div>
-            <div className="text-[15px] text-[#737373] dark:text-[#a3a3a3] mt-5 space-y-3">
+            <div className="text-[15px] text-[#737373] dark:text-[#a3a3a3] mt-5 space-y-4 leading-relaxed">
                 <p>
-                    Frontend Developer passionate about building fast,
-                    user-friendly websites that make an impact.
+                    As a Frontend Developer, I focus on building{" "}
+                    <span className="text-black dark:text-white">clean, functional interfaces</span>{" "}
+                    that work seamlessly across all devices. I enjoy the process of turning a design
+                    into a living, breathing application.
                 </p>
                 <p>
-                    Let’s create a site that looks great and works even better.
+                    I also leverage the{" "}
+                    <span className="text-black dark:text-white">MERN stack</span> (MongoDB,
+                    Express, Node.js) to build end-to-end solutions. My focus is on being a
+                    versatile developer who can bridge the gap between{" "}
+                    <span className="text-black dark:text-white">
+                        robust logic and refined interfaces
+                    </span>
+                    .
                 </p>
             </div>
         </section>
