@@ -1,13 +1,7 @@
 import { Button } from "../ui/button";
-import {
-    Dialog,
-    DialogContent,
-    DialogFooter,
-    DialogHeader,
-    DialogTitle,
-    DialogTrigger,
-} from "../ui/dialog";
+import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from "../ui/dialog";
 
+import { Download } from "lucide-react";
 import ResumeViewer from "../ResumeViewer/ResumeViewer";
 
 const ResumeDialog = () => {
@@ -19,19 +13,21 @@ const ResumeDialog = () => {
                 </DialogTrigger>
                 <DialogContent className="w-full max-w-3xl h-[90vh] overflow-auto">
                     <DialogHeader>
-                        <DialogTitle>Resume</DialogTitle>
+                        <DialogTitle>
+                            {" "}
+                            <Button asChild>
+                                <a
+                                    href={
+                                        "/resumes/Resume_of_Md_Sajidul_Islam_Frontend_Developer.pdf"
+                                    }
+                                    download
+                                >
+                                    Download Resume <Download className="animate-bounce" />
+                                </a>
+                            </Button>
+                        </DialogTitle>
                     </DialogHeader>
                     <ResumeViewer />
-                    <DialogFooter>
-                        <Button>
-                            <a
-                                href={"/resumes/Resume_Of_Md_Sajidul_Islam.pdf"}
-                                download
-                            >
-                                Download Resume
-                            </a>
-                        </Button>
-                    </DialogFooter>
                 </DialogContent>
             </Dialog>
         </div>

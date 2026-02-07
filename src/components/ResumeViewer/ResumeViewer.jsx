@@ -6,7 +6,7 @@ import "react-pdf/dist/Page/TextLayer.css";
 
 pdfjs.GlobalWorkerOptions.workerSrc = new URL(
     "pdfjs-dist/build/pdf.worker.min.mjs",
-    import.meta.url
+    import.meta.url,
 ).toString();
 
 const ResumeViewer = () => {
@@ -26,7 +26,7 @@ const ResumeViewer = () => {
         <div ref={containerRef}>
             <Document
                 className="w-full max-w-4xl mx-auto"
-                file="/resumes/Resume_Of_Md_Sajidul_Islam.pdf"
+                file="/resumes/Resume_of_Md_Sajidul_Islam_Frontend_Developer.pdf"
             >
                 <Page pageNumber={1} width={width - 15} />
             </Document>
