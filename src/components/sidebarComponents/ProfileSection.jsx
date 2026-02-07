@@ -49,8 +49,8 @@ const ProfileSection = () => {
             </div>
             <div>
                 <p className="text-[#737373] dark:text-[#a3a3a3] text-sm">
-                    I’m a passionate web developer focused on building scalable and user-friendly
-                    applications.
+                    Building fast, interactive, and beautiful frontend experiences with React and
+                    Next.js
                 </p>
             </div>
             <div className="flex md:flex-col xl:flex-row gap-2">
