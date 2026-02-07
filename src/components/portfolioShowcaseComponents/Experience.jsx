@@ -1,6 +1,6 @@
-import Image from "next/image";
-import { CalendarDays, Briefcase } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
+import { CalendarDays } from "lucide-react";
+import Image from "next/image";
 
 const experiences = [
     {
@@ -10,7 +10,7 @@ const experiences = [
         duration: "Sep 2025 - Present",
         skills: ["React", "Next.js", "Tailwind CSS", "TypeScript", "Redux"],
         description:
-            "Building responsive, accessible UI components; integrating REST APIs; optimizing bundle size and page performance; collaborating with designers and backend engineers.",
+            "Working primarily on a School Management System SaaS, developing and maintaining scalable, user-friendly frontend features. Refactoring an e-commerce platform to improve code quality, maintainability, and performance, while fixing UI bugs, improving UX, and collaborating closely with designers and backend engineers.",
     },
 ];
 
