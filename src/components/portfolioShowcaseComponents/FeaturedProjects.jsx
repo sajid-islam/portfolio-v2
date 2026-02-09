@@ -9,7 +9,7 @@ const projects = [
         description:
             "A knowledge-sharing platform designed to help busy individuals learn Islamic teachings by offering a daily hadith and other educational resources.",
         tech: "Next.js",
-        technologies: ["NextJs", "Tailwind Css", "ShadcnUI"],
+        technologies: ["Next.js", "Tailwind", "Shadcn/ui"],
         features: [
             "Daily Hadith Display: Randomly presents a new hadith every day, encouraging users to increase their Islamic knowledge in small, consistent steps.",
             "Subject-wise Hadith Collection: Allows users to browse hadiths by specific topics for deeper, focused learning.",
@@ -22,7 +22,6 @@ const projects = [
         repoLinks: [
             {
                 clientSide: "https://github.com/mehedijaman/dailytalim-frontend",
-                serverSide: "https://github.com/dailytalim/dailytalim-backend",
             },
         ],
     },
@@ -33,8 +32,8 @@ const projects = [
         tech: "Next.js",
         technologies: [
             "Next.js",
-            "Tailwind CSS",
-            "Shadcn UI",
+            "Tailwind",
+            "Shadcn/ui",
             "Node.js",
             "Express.js",
             "MongoDB",
@@ -64,7 +63,7 @@ const projects = [
         description:
             "A team project that engages teachers and students in a digital platform for seamless learning.",
         tech: "React",
-        technologies: ["React", "TailwindCSS", "DaisyUI", "Firebase", "MongoDB", "ExpressJS"],
+        technologies: ["React", "Tailwind", "DaisyUI", "Firebase Auth", "MongoDB", "Express.js"],
         features: [
             "Classroom Creation: Teachers can create and manage virtual classrooms.",
             "Private Messaging: Students and teachers can communicate securely.",
@@ -117,7 +116,7 @@ const FeaturedProjects = () => {
                                             <div
                                                 className={cn(
                                                     "size-4 rounded-full",
-                                                    techColors[project.tech]
+                                                    techColors[project.tech],
                                                 )}
                                             />
                                             <span className="text-xs font-medium text-muted-foreground">
