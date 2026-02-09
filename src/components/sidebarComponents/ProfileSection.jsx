@@ -39,7 +39,7 @@ const ProfileSection = () => {
                     <div className="mt-0 md:mt-6">
                         <h2 className="text-xl md:text-2xl font-bold">Md Sajidul Islam</h2>
                         <div className="text-[#737373] dark:text-[#a3a3a3] text-sm md:text-base flex gap-2 items-center box-content ">
-                            I'm a <Roles />
+                            <span className="hidden lg:block">I'm a</span> <Roles />
                         </div>
                     </div>
                 </div>
