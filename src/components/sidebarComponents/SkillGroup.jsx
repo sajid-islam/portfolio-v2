@@ -1,6 +1,6 @@
 const SkillGroup = ({ title, items }) => (
     <div className="mt-6">
-        <h3 className="text-sm font-semibold mb-3 bg-gray-100 rounded-md py-0.5 px-2 border">
+        <h3 className="text-sm font-semibold mb-3 bg-gray-100 dark:bg-black rounded-md py-0.5 px-2 border">
             {title}
         </h3>
         <div className="flex flex-wrap gap-1.5">
