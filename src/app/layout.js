@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer/Footer";
 import { ThemeProvider } from "next-themes";
 import { Inter, Poppins } from "next/font/google";
 import "./globals.css";
@@ -59,6 +60,7 @@ export default function RootLayout({ children }) {
                         disableTransitionOnChange
                     >
                         {children}
+                        <Footer />
                     </ThemeProvider>
                 </main>
             </body>
